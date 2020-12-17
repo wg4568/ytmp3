@@ -1,0 +1,9 @@
+{
+    "debug": true,
+
+    "server": {
+        "port": 8104,
+        "host": "localhost",
+        "https": false
+    }
+}
