@@ -1,9 +1,8 @@
 {
     "debug": true,
+    "ffmpeg": "D:\\Applications\\ffmpeg\\ffmpeg.exe",
 
     "server": {
-        "port": 8104,
-        "host": "localhost",
-        "https": false
+        "port": 8104
     }
 }

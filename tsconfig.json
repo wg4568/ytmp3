@@ -9,6 +9,7 @@
         "strict": true,
         "lib": ["dom", "es6"],
         "esModuleInterop": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "allowJs": true
     }
 }
