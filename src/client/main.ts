@@ -1,3 +1,5 @@
+import config from "../../config.json";
+
 const input = document.getElementById("url") as HTMLInputElement;
 const button = document.getElementById("submit") as HTMLButtonElement;
 
@@ -37,6 +39,6 @@ function validate_url(url: string, callback: (v: boolean, i: string) => any) {
 button.onclick = () => {
     validate_url(input.value, (valid, video_id) => {
         if (!valid) alert("Please enter a valid URL");
-        else window.location.href = "/fetch/" + video_id;
+        else window.location.href = config.base_url + "/fetch/" + video_id;
     });
 };
